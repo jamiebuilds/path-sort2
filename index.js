@@ -12,6 +12,8 @@ function sorter(a, b) /*: number */ {
     if (a.length < b.length) return -1;
     if (a.length > b.length) return +1;
   }
+  if (a.length < b.length) return -1;
+  if (a.length > b.length) return +1;
   return 0;
 }
 
