@@ -1,19 +1,14 @@
 {
-  "name": "path-sort",
+  "name": "path-sort2",
   "version": "0.1.0",
   "description": "Sort a list of file/directory paths",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "tape": "~1.0.4"
-  },
-  "scripts": {
-    "test": "node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/hughsk/path-sort.git"
-  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "repository": "jamiebuilds/path-sort2",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "sort",
     "path",
@@ -21,7 +16,11 @@
     "directory",
     "tree"
   ],
-  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
-  "license": "MIT",
-  "readmeFilename": "README.md"
+  "scripts": {
+    "test": "ava test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "flow-bin": "^0.73.0"
+  }
 }
