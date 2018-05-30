@@ -1,6 +1,6 @@
 # path-sort2
 
-Sort a list of file/directory paths, such that something like this:
+Sort a list of file/directory paths
 
 ## Example
 
