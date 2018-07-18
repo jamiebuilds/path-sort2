@@ -9,8 +9,6 @@ function sorter(a, b) /*: number */ {
     if (!(i in b)) return +1;
     if (a[i].toUpperCase() > b[i].toUpperCase()) return +1;
     if (a[i].toUpperCase() < b[i].toUpperCase()) return -1;
-    if (a.length < b.length) return -1;
-    if (a.length > b.length) return +1;
   }
   if (a.length < b.length) return -1;
   if (a.length > b.length) return +1;
